@@ -1,0 +1,203 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+HTML_HEAD_EXTRA: <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+#+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
+#+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
+
+#+TITLE: Web Design
+#+AUTHOR: Xiaohui Ellis
+
+#+BEGIN_HTML
+  <div class="github-fork-ribbon-wrapper left">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/stsb11/7-CS-webDesign">Fork me on GitHub</a>
+    </div>
+  </div>
+<div id="stickyribbon">
+    <ul>
+      <li><a href="1_Lesson.html">Week1</a></li>
+      <li><a href="2_Lesson.html">Week2</a></li>
+      <li><a href="3_Lesson.html">Week3</a></li>
+      <li><a href="assessment.html">Assessment</a></li>
+    </ul>
+  </div>
+#+END_HTML
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Web Design
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- HTML or HyperText Markup Language is the main markup language for creating web pages and other information that can be displayed in a web browser. A markup language specifies the rules and symbols for formatting text files.The code used to specify the formatting are called tags.
+- In this unit, you are to learn some of HTML tags to format text, images and backgrounds of web pages.
+- A text file that uses HTML tags for its format (both layout and style) to be displayed in a browser is called a HTML file. It normally has an .html file extension.
+- You are going to use a text editor called  Notepad to create and edit HTML files. 
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Load Notepad by clicking the start button in the bottom-left hand corner of the screen, typing 'notepad' and hitting the enter key.
+- Once the file opens, you should see a blank Notepad like this:
+[[./img/blankNotepad.png]]
+- In the Notepad window, type:
+
+#+begin_src html
+<html>
+#+end_src
+
+- =<html>= is a tag. Tags are instructions to a Web browser.
+- This particular instruction lets the Web browser know that what follows is a Web page, written in HTML: =Hypertext Markup Language=.
+[[./img/html-0.png]]
+
+- On the Menu Bar of the Notepad, click File, then Save.
+- When the Save As window appears, select your home drive, then Computing 2013 folder you made in the beginning of the year.
+- Make another new folder called it myWebPages
+- Double click on the new folder to go inside it.
+- *IMPORTANT:* In the =Save as type= drop-down menu, choose =All files=. 
+- Type =index.html= as the file name and click Save.
+[[./img/saveHtml.png]]
+
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Whenever you're creating a Web site, give the home page the file name =index.html=.
+- =index.html= comes up automatically when the address of a Web site or directory is typed into a browser.
+- For instance, if you go to www.bbc.co.uk, the home page appears automatically. That's because its file name is =index.html=.
+- If the file name of BBC website home page was =homepage.html=, you'd have to type [[www.bbc.co.uk/homepage.html]] to get it to appear.
+
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Below the <html> tag, type:
+
+#+begin_src html
+<head>
+<title>My Dog Jack</title>
+</head>
+#+end_src
+
+- The =<head>= section of our page contains information that doesn't show up on the page when it's viewed in a web browser.
+- Note the closing =</head>= tag. In HTML, you must give the browser instructions to end something as well as start it.
+- Everything from the start tag to the end tag is called a HTML element.
+- The text My Dog Jack is not a tag. It is text surrounded by tags. The =<title>= and =</title>= tags tell the browser what to do with the text: make it the title of the page where appears on the tab of a web browser. This is the title element.
+[[./img/html-1.png]]
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Continue under the </head> tag, type:
+
+#+begin_src html
+<html>
+<head>
+<title>My Dog Jack</title>
+</head>
+<body>
+<p>My dog Jack is a minature schnauzer. He is 8 months old.</p>
+</body>
+</html>
+#+end_src
+
+- The =<body>= section contains information that actually shows up on the page when it's viewed in a browser.
+- The =<p>= and =</p>= tags tells the browswer to display the text between those two tags as a paragraph. This is a HTML paragraph element.
+- The paragraph is placed between the =<body>= and the =</body>= tags which tells the browser to display the paragraph on the web page. If we want anything else such as an image(picture) on the page, we also need to place it in between the =<body>= tags.
+[[./img/html-2.png]]
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+You should have the following code in your notepad. Click File, Save to save the web page.
+<html>
+<head>
+<title>My Dog Jack</title>
+</head>
+<body>
+<p>My dog Jack is a minature schnauzer. He is 8 months old.</p>
+</body>
+</html>
+Go to your folder you created for this project, you shoud see something like this:
+[[./img/file-1.png]]
+- Double click on the file index.html or right click then choose open with to open it in a browser. You shoud see your first web page like this:
+[[./img/page-1.png]]
+- You have just made your first web page. A web site will have many web pages. Those web pages are linked with hyperlinks which allow users to navigate from one web page to another.
+- In the next section, we will create another web page and link those two so that you can go from one web page to the other.
+- Before we start our next section, let's check our understanding by taking a short quiz.
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Take the quiz by clicking *THIS* link.
+- *********** TO DO *************
+- *Silver:* Score 50%
+- *Gold:* Score 70%
+- *Platinum:* Score 90%
