@@ -138,7 +138,7 @@
 - Develop a pair of web pages, called =page1.html= and =page2.html=
    - They should link to one another.
    - Include a link to two of your favourite websites.
-   - Upload both HTML files to BourneToLearn.com for marking.
+   - Upload both HTML files to [[https://www.bournetolearn.com][BourneToLearn.com]] for marking.
 
 
 - *Silver:* Create a working hyperlink.
