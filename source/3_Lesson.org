@@ -97,7 +97,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Now you have two web pages. They are not much to look at although you can navigate from one page to another.To build a good quality web site, you need to think about a few things carefully
+- Now you have two web pages. They are not much to look at although you can navigate from one page to another. To build a good quality web site, you need to think about a few things carefully:
    - What do you want to be on your web site?
    - What do you want to be on your homepage?
    - What is your target audience?
@@ -150,19 +150,19 @@
 :HTML_CONTAINER_CLASS: code
 :END:
 [[./img/sketch.png]]
-- Let's create the layout shown above using box model. First, we'll define the top blue box.
+- Let's create the layout shown above using the box model. First, we'll define the top blue box.
 - Open your =index.html= file with Notepad.
-- Let's give the blue box a name, =topbox=. This is so that web browsers know it by its name when it draws it on the page and places things inside it.
+- Let's give the blue box a name, =topbox=. This will let the web browsers know which part of the webpage we are talking about when we write code for it.
 - Add the following lines just below the =<body>= tag.
 #+begin_src html
 <div id="topbox">
 </div>
 #+end_src
 
-Your index.html should now look like this:
+Your =index.html= should now look like this:
 [[./img/topbox-style-1.png]]
 
-- The =<div>= tag is for defining a division or section on a web page. In this case, we defined a section or division called "=topbox=". Right now there is no information about the size, colour or content about the division yet. We are going to add those information next page.
+- The =<div>= tag is for defining a division or section on a web page. In this case, we defined a section or division called "=topbox=". Right now there is no information about the size, colour or content about the division yet.
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
@@ -196,21 +196,21 @@ background-color: blue; to define the top box with blue solid colour fill.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: test
 :END:
-- Create the layout using box model- save and see the result.
-- Save your index.html file and then open it with a browser. you should see something like this:
+- Create the layout using the box model - and then save the work and refresh your browser to see the changes.
+- Save your =index.html= file and then open it with a browser. You should see something like this:
 [[./img/topbox-page-1.png]]
-- If you don't see it, double check your index.html file to make sure there are no typos and unclosed tags: (use the following as your guide.)
+- If you don't see it, double check your =index.html= file to make sure there are no typos and unclosed tags: (use the following as your guide.)
 [[./img/topbox-style-2.png]]
 
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- Let's now create the layout using box model and add text to the box.
-- We have now a blank box with solid colour. Let's add some text to the box as the heading to our home page. We are going to use a new tag, heading tag to do this. 
+- Let's now create the layout using the box model and add text to the box.
+- We now have a blank box with solid colour. Let's add some text to the box as the heading to our home page. We are going to use a new tag, heading tag to do this. 
 - Before we start, can you work out where we should place this heading text in the following lines?
 
-- Only partial code from index.html shown.
+- Only partial code from =index.html= is shown.
 #+begin_src html
 <body>
 <div id="topbox">
@@ -220,11 +220,11 @@ background-color: blue; to define the top box with blue solid colour fill.
 </html>
 #+end_src
 
-- Since we want the heading to be inside the box, we need to put it in between the =<div>= tags. There are six different heading tags you can use, from =<h1>=, =<h2>= to =<h6>=. Each with different font size with <h1> the biggest and <h6> the smallest.
+- Since we want the heading to be inside the box, we need to put it in between the =<div>= tags. There are six different heading tags you can use, from =<h1>=, =<h2>= to =<h6>=, each resulting in a different font size with =<h1>= the biggest and =<h6>= the smallest.
 
 - You might have guessed correctly, we need to add the heading like so (I used =h2= here):
 
-Only partial code from =index.html= shown.
+Only partial code from =index.html= is shown.
 #+begin_src html
 <body>
 <div id="topbox">
@@ -236,14 +236,14 @@ Only partial code from =index.html= shown.
 #+end_src
 
 - After you added the heading to your =index.html= file, save your =index.html= file and open it with a browser or refresh your browser if you have it open already to see the effects.
-. - You should see something similar to this:
+- You should see something similar to this:
 [[./img/topbox-page-2.png]]
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- We'll now create the layout using box model, adding style to the heading.
-- Our =topbox= now contains the heading. The heading text has the default colour black. We need to change the text location and colour to make the topbox of our home page look nicer.
+- We'll now create the layout using the box model, adding style to the heading.
+- Our =topbox= now contains the heading. The heading text has the default colour black. We need to change the text location and colour to make the =topbox= of our home page look nicer.
 - To style the heading text, we need to add some style attributes to the heading tag. In this case the =h2= tag.
 - To style the =h2= heading, the following lines of code need to be added:
 
@@ -254,7 +254,7 @@ text-align: center;
 }
 #+end_src
 
-- Note that two attributes are used to define the style of h2.
+- Note that two attributes are used to define the style of =<h2>=.
 - ...also, the attribute color is spelled the American way.
 - =color: yellow;= is the syntax for defining the heading text color as yellow.
 - =text-align: center;= is the syntax for defining where the heading text should be placed inside the topbox.
@@ -273,5 +273,5 @@ text-align: center;
 :END:
 - Complete the tasks for this lesson.
 - *Silver:* Create the =topbox=.
-- *Gold:* Modify the behaviour of your =topbox= to centre the text.
+- *Gold:* Modify the behaviour of your =topbox= to centre the text or change the appearance of it.
 - *Platinum:* Complete all the tasks for this lesson.
