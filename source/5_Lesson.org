@@ -102,8 +102,8 @@
 - To add an image, we need to:
    - Create a folder images in the same folder you have saved your =index.html= file to hold all the images will be used in your web pages together.
 [[./img/folder-3.png]]
-   - Use the tag img. This tag does not need a closing =</img>=.
-   - The tag img needs an attribute tag src to specify the image location and the image name.
+   - Use the tag =img=. This tag does not need a closing =</img>=.
+   - The tag img needs an attribute tag =src= to specify the image location and the image name.
    - The image name must be complete, which means the file extension such as =.jpg=, =.gif=, or =.png= etc must be included.
 - Here is a line of code for adding an image. src is an attribute that gives the location and name of the image file, which is in a folder called images.
 
@@ -117,7 +117,7 @@
 <img src="images/jack-right.jpg" width=600 height=180> 
 #+end_src
 
-- You should now have the body section of your index.html file similiar to this:
+- You should now have the body section of your =index.html= file similiar to this:
 [[./img/html-body-3.png]]
 - The homepage now looks like this in a browser:
 [[./img/page-6.png]]

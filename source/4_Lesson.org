@@ -122,7 +122,7 @@ height: 800px;
 }
 #+end_src
 
-- Let's examine what we have in our index.html file. Try to indent your lines of code to help you identify pairs of starting and closing tags and the structure of your box layout.
+- Let's examine what we have in our =index.html= file. Try to indent your lines of code to help you identify pairs of starting and closing tags and the structure of your box layout.
 [[./img/container-1.png]]
 - Save your =index.html= file and open it with a browser or refresh your browser if you have it open already to see the effects.
 ** Code It
@@ -153,7 +153,7 @@ float: left;
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- *Task:* Create the layout using box model by adding the right box inside the container independently.
+- *Task:* Create the layout using the box model by adding the right box inside the container independently.
 - We should now have a topbox, a container box and a left box that is in the container's left side.
 - You will need to create the right box with a height of *800px*, width of *640px*, background colour of your choice.
 - The right box must stay to the right side of the container box.
