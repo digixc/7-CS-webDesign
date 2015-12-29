@@ -199,8 +199,7 @@ Go to your folder you created for this project, you shoud see something like thi
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Take the quiz by clicking *THIS* link.
-- *********** TO DO *************
+- Take the quiz by clicking [[../quiz/popquiz.htm][THIS]] link.
 - *Silver:* Score 50%
 - *Gold:* Score 70%
 - *Platinum:* Score 90%
