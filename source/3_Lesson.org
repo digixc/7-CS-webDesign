@@ -178,9 +178,9 @@ To do this, we need another new tag =<style>= plus some attributes to tell brows
 <title>My Dog Jack</title>
 <style> 
 #topbox { 
-width: 800px; to define the top box as 800 pixels wide.
-height: 100px; to define the top box as 100 pixels high.
-background-color: blue; to define the top box with blue solid colour fill.
+width: 800px; 
+height: 100px;
+background-color: blue;
 }
 </style> 
 </head>
