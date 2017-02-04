@@ -100,15 +100,16 @@
 - HTML or HyperText Markup Language is the main markup language for creating web pages and other information that can be displayed in a web browser. A markup language specifies the rules and symbols for formatting text files.The code used to specify the formatting are called tags.
 - In this unit, you are to learn some of HTML tags to format text, images and backgrounds of web pages.
 - A text file that uses HTML tags for its format (both layout and style) to be displayed in a browser is called a HTML file. It normally has an .html file extension.
-- You are going to use a text editor called  Notepad to create and edit HTML files. 
+- Your teacher may ask you to use =Sublime Text= to create and edit HTML files. =Sublime Text= is very good at help you with coding using =syntax hightlighting= which means using colours to hightlight key words, and using indentations to make your code easy to follow/read.
+- You are going to use a text editor called Notepad to show you how to create and edit HTML files in this unit. 
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- Load Notepad by clicking the start button in the bottom-left hand corner of the screen, typing 'notepad' and hitting the enter key.
-- Once the file opens, you should see a blank Notepad like this:
-[[./img/blankNotepad.png]]
-- In the Notepad window, type:
+- Open =Sublime Text= by clicking the Start button in the bottom-left hand corner of your screen, typing 'sublime' and hitting the enter key.
+- Once the file opens, you should see a blank Sublime Text window like this:
+[[./img/sublimeText.png]]
+- In the Sublime Text window, type:
 
 #+begin_src html
 <html>
@@ -118,7 +119,7 @@
 - This particular instruction lets the Web browser know that what follows is a Web page, written in HTML: =Hypertext Markup Language=.
 [[./img/html-0.png]]
 
-- On the Menu Bar of the Notepad, click File, then Save.
+- On the Menu Bar of the Sublime Text, click File, then Save.
 - When the Save As window appears, select your home drive, then Computing folder you made in the beginning of the year.
 - Make another new folder called it myWebPages
 - Double click on the new folder to go inside it.
@@ -134,7 +135,7 @@
 - =index.html= comes up automatically when the address of a Web site or directory is typed into a browser.
 - For instance, if you go to www.bbc.co.uk, the home page appears automatically. That's because its file name is =index.html=.
 - If the file name of BBC website home page was =homepage.html=, you'd have to type [[www.bbc.co.uk/homepage.html]] to get it to appear.
-
+  
 ** Code It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
@@ -199,7 +200,7 @@ Go to your folder you created for this project, you shoud see something like thi
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Take the quiz by clicking [[../quiz/popquiz.htm][THIS]] link.
+- Take the quiz by clicking [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_1][this]] link.
 - *Silver:* Score 50%
 - *Gold:* Score 70%
 - *Platinum:* Score 90%
