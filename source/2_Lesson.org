@@ -135,12 +135,11 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
+
+- For this lesson’s assessment you are marking your own work.  This will allow you see your own progress. This process is often used for online training programmes and is called the ‘honour’ or ‘trust system’. Obviously the key to these systems is being honest. Your teacher will randomly check some students work to moderate their marking.
+
 - Develop a pair of web pages, called =page1.html= and =page2.html=
-   - They should link to one another.
-   - Include a link to two of your favourite websites.
-   - Upload both HTML files to [[https://www.bournetolearn.com][BourneToLearn.com]] for marking.
-
-
-- *Silver:* Create a working hyperlink.
-- *Gold:* Make both pages link to one another
-- *Platinum:* Complete all the above tasks, *AND* change the font on the page to 'Arial'. 
+  - They should link to one another.
+  - Include a link to two of your favourite websites.
+  - Complete all the above tasks, *AND* change the font on the page to 'Arial'. 
+- Once you have done above tasks and tested they are working as intended, click [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_2/][here]] for the self assessment.

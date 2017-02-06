@@ -176,11 +176,11 @@ float: left;
 :END:
 - After you have done everything so far, you should see something similar to the following image when you open your =index.html= in a browser:
 [[./img/page-5.png]]
-** Badge It
+** Badge It - Self Assessment
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Complete the tasks for this lesson. Upload your =index.html= file.
-- *Silver:* Create the =container= correctly.
-- *Gold:* Add the left and right box.
-- *Platinum:* Complete all the tasks for this lesson.
+- Complete the tasks for this lesson. Save your work.
+- In lesson two you used the =trust system= to rate your own progress. Lets see how you are getting on.
+- If you find there are things you still cannot do, this will be the good chance to catch up by asking your teacher or re-read the instructions.
+- When you are ready,  click [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_4/][here]] to assess your progress.

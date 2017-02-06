@@ -271,7 +271,5 @@ text-align: center;
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Complete the tasks for this lesson.
-- *Silver:* Create the =topbox=.
-- *Gold:* Modify the behaviour of your =topbox= to centre the text or change the appearance of it.
-- *Platinum:* Complete all the tasks for this lesson.
+- Complete the tasks for this lesson. Test it to make sure it looks as it is intended. Save your work.
+- Your work will be assessed at the end of the next lesson.
