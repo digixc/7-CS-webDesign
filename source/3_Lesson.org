@@ -267,9 +267,12 @@ text-align: center;
    - Check there are no missing : , ; , or {, or } symbols.
 - Your page should now look like this...
 [[./img/topbox-page-3.png]]
-** Badge It
+
+** Badge It - Self Assessment
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Complete the tasks for this lesson. Test it to make sure it looks as it is intended. Save your work.
-- Your work will be assessed at the end of the next lesson.
+- Complete the tasks for this lesson. Save your work.
+- In lesson two you used the =trust system= to rate your own progress. Lets see how you are getting on.
+- If you find there are things you still cannot do, this will be the good chance to catch up by asking your teacher or re-read the instructions.
+- When you are ready,  click [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_3/][here]] to assess your progress.
