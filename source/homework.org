@@ -117,14 +117,26 @@
 :HTML_CONTAINER_CLASS: learn
 :END:
 
-- Coming soon
+- Tom has created two html files: =index.html= and =mySecondPage.html=
+- Tom made the links in each of the two files so they should link to each other by a hyperlink.
+- Tom opened the =index.html= file in browser, but disapponitedly, it did not work.
+- There are some mistakes in both of Tom's files. Can you identify all of the erros Tom has made in his two webpage files? Hints: there 3 errors in the each of the files.
+- Tom's =index.html= file:
+[[./img/index-err.png]]
+- Tom's =mySecondPage.html= file:
+[[./img/secondPageErr.png]]
 
 	 
 ** Homework 3 - Literacy Task
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Coming soon
+- In "How the Internet Works" unit, you have learned what the Internet is and what the world wide web(WWW) is. I hope you now understand they are two different things.
+- Do some your own research on the world wide web on the Internet, write a 200 words summary on the following points:
+  1. What role did sir Tim Berners-Lee play in creating the WWW and the mark up language you have been using to create webpages? 
+  2. What is a web server?
+  3. BEFORE the Internet and the WWW, what did people in the past use to find out information such as business/school phone numbers, movie show times, and what did people do if they want to conduct some research on a holiday destination?
+- Upload your work to www.bournetolearn.com or hand it in to your teacher if uploading is impossible.
 
 
 
