@@ -150,10 +150,11 @@
 :HTML_CONTAINER_CLASS: code
 :END:
 [[./img/sketch.png]]
+- There is a [[https://www.youtube.com/watch?v%3DJGKTscTzeCw][video tutorial]] for this week and next week's coding to help you along.
 - Let's create the layout shown above using the box model. First, we'll define the top blue box.
 - Open your =index.html= file with Notepad.
 - Let's give the blue box a name, =topbox=. This will let the web browsers know which part of the webpage we are talking about when we write code for it.
-- Add the following lines just below the =<body>= tag.
+- Add the following lines just below the =<body>= tag. 
 #+begin_src html
 <div id="topbox">
 </div>
