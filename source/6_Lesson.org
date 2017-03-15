@@ -178,22 +178,14 @@ padding-right: 10px;
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
 :END:
-- Decide on a topic you would like to make webpages about it.
-- Your topic could be pets, movies, games, your favourite football teams, music bands, etc.
-- Design your webpage layout using Paint or Word shapes tool.
-- Your design must be different from the tutorial one. Annotate each element on your design. For example, a picture of my dog, or general information about my dog. etc
-- Build your webpages one at a time based on the layout you designed. You need at least two pages that are linked.
-- Build the webpages using Notepad or SublimeText if available. If you are stuck, go to appropriate sections in the tutorials for instructions.
 
+- *Silver:* Create two inter-linked web pages with the same style that you have been following throught out this unit.
+- *Gold:* Your rightbox now should have some text and at least one image. Sometimes, it is very convenienent to use tables to orgainise our content or images. Please follow[[http://htmldog.com/guides/html/advanced/tables/][ this tutorial]] carefully to add a table in your rightbox.
+  - *challenge* can you look up online how to style a table using CSS?
 
-- Once finished, write an evaluation of your project:
-  - Is your design suitable for its purpose?
-  - Is your design suitable for its intended audience?
-  - Are all links correct?
-  - Are the choices of colour, fonts, images appropriate?
-  - Work independently and hand in your project at the end of term.
-
-
-- *Silver:* Create two inter-linked web pages using HTML.
-- *Gold:* Use CSS to style the pages.
-- *Platinum:* Use CSS with padding and margins to create your pages.
+- *Platinum:* 
+  - So far, we have learned how to style our webpages by placing some CSS (cascading style sheet) code between the start =<style>= and the =</style>= tags. 
+  - Professional web developers prefer to use separate CSS files also known as =external style sheet= so they can use the same style sheet on different webpages without have to write the same code again and again. 
+  - Using an external style sheet is especially useful when you want to change the look of all your webpages. Because you only need to change one style sheet file and then all the webpages use this style sheet will all have been changed.
+  - Please have a look at this [[http://htmldog.com/guides/css/beginner/applyingcss/][link]] to learn how to create an external style sheet and include it in all your webpages.
+  - Upload your separate style sheet file and the html files that you have linked your style sheet to.
