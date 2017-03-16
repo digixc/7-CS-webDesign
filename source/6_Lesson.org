@@ -150,7 +150,7 @@ width: 630px;
 height: 600px;
 background-color: grey;
 float: right;
-margin-left; 10px;
+margin-left: 10px;
 }
 #+end_src
 
@@ -169,7 +169,7 @@ margin-left; 10px;
 #+begin_src html
 padding-top: 40px; 
 padding-left: 10px;
-padding-buttom: 20px;
+padding-bottom: 20px;
 padding-right: 10px;
 #+end_src
 
@@ -183,6 +183,9 @@ padding-right: 10px;
 - *Gold:* Your rightbox now should have some text and at least one image. Sometimes, it is very convenienent to use tables to orgainise our content or images. Please follow[[http://htmldog.com/guides/html/advanced/tables/][ this tutorial]] carefully to add a table in your rightbox.
   - *challenge* can you look up online how to style a table using CSS?
 
+#+BEGIN_HTML
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/WILQJG_lE94?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+#+END_HTML
 - *Platinum:* 
   - So far, we have learned how to style our webpages by placing some CSS (cascading style sheet) code between the start =<style>= and the =</style>= tags. 
   - Professional web developers prefer to use separate CSS files also known as =external style sheet= so they can use the same style sheet on different webpages without have to write the same code again and again. 
