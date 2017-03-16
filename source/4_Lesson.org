@@ -176,6 +176,13 @@ float: left;
 :END:
 - After you have done everything so far, you should see something similar to the following image when you open your =index.html= in a browser:
 [[./img/page-5.png]]
+
+Stuck?
+
+#+BEGIN_HTML
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/JGKTscTzeCw?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+#+END_HTML
+
 ** Badge It - Self Assessment
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
