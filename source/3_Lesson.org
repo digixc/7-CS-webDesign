@@ -174,6 +174,7 @@ Your =index.html= should now look like this:
 To do this, we need another new tag =<style>= plus some attributes to tell browsers the size and colour of our topbox. Since =<style>= is not the actual content on the page's body, we need to add this style information within the =<head>= tags like so:
 
 #+begin_src html
+<!DOCTYPE html>
 <html>
 <head>
 <title>My Dog Jack</title>
