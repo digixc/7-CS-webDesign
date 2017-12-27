@@ -140,7 +140,7 @@
 - *Padding:* Clears an area around the content.
 - *Content:* The content of the box, where text and images appear
 - *Size:* The size of the box can be defined by width and height in unit of number of pixels.
-
+- Follow[[https://www.w3schools.com/css/css_boxmodel.asp][ this link]] to see how to style an element using this box model.
 - To give an idea of scale, the following shows a box with the size of 100x100 pixels as displayed in your browser.
 
 [[./img/100pixels.jpg]]
@@ -268,6 +268,7 @@ text-align: center;
    - Check there are no missing : , ; , or {, or } symbols.
 - Your page should now look like this...
 [[./img/topbox-page-3.png]]
+
 
 ** Badge It - Self Assessment
 :PROPERTIES:

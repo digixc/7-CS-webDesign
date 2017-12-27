@@ -93,6 +93,12 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+** What we already know
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- The world wide web is a collection of html documents, and they all link to each other using hyper links.
+- A web browser is a piece of software that understands html documents and display them in human friendly formats.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -112,9 +118,12 @@
 - In the Sublime Text window, type:
 
 #+begin_src html
+<!DOCTYPE html>
 <html>
 #+end_src
 
+- The <!DOCTYPE> declaration must be the very first thing in your HTML document, before the <html> tag.
+- The <!DOCTYPE> is NOT a tag. It is an instruction to the web browser about what version of HTML the page is written in.
 - =<html>= is a tag. Tags are instructions to a Web browser.
 - This particular instruction lets the Web browser know that what follows is a Web page, written in HTML: =Hypertext Markup Language=.
 [[./img/html-0.png]]
@@ -127,6 +136,12 @@
 - Type =index.html= as the file name and click Save.
 [[./img/saveHtml.png]]
 
+* NOTE: read the following
+- the remaining screenshots using Notepad instead of Sublime Text. The code is the same. Using Sublime Text is better for formatting, easier to follow your code and easier to debug.
+- although the declaration <!DOCTYPE html> is missing from the screenshots, it should always be the first line of your code.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -160,6 +175,7 @@
 - Continue under the =</head>= tag, type:
 
 #+begin_src html
+<!DOCTYPE html>
 <html>
 <head>
 <title>My Dog Jack</title>
@@ -180,6 +196,7 @@
 :END:
 You should have the following code in your notepad. Click File, Save to save the web page.
 #+begin_src html
+<!DOCTYPE html>
 <html>
 <head>
 <title>My Dog Jack</title>
