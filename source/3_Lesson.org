@@ -89,6 +89,17 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
+* Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END:
+** Developing *Programming and Development* (learning strand) skills, specifically:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Understand that CSS is a model for formating HTML web pages
+- Understand that CSS organises web contents in "boxes" - the box model
+- Be able to apply CSS box model to an element of a web page
 * Styling
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -281,7 +292,8 @@ text-align: center;
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
+*** learning strand: Programming and Development
 - Complete the tasks for this lesson. Save your work.
 - In lesson two you used the =trust system= to rate your own progress. Lets see how you are getting on.
 - If you find there are things you still cannot do, this will be the good chance to catch up by asking your teacher or re-read the instructions.
-- When you are ready,  click [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_3/][here]] to assess your progress.
+When you are ready,  click [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_3/][here]] to assess your progress.

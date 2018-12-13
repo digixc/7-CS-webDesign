@@ -89,6 +89,25 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
+* Objectives
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: objectives
+:END:
+** Developing *Programming and Development* (learning strand) skills, specifically:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Understand that HTML is a programming language for the web.
+- Understand that HTML can be used for formating data in a specific way.
+- Understand that web browsers are used for displaying web pages.
+** Developing understanding of *Data and Data Representation* (learning strand), specifically:
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- Understand that computers store and transfer data in binary (0s and 1s).
+- Understand that data can be represented in different formats.
+- Understand that HTML is a language for representing data on web pages.
+
 * Web Design
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -99,6 +118,7 @@
 :END:
 - The world wide web is a collection of html documents, and they all link to each other using hyper links.
 - A web browser is a piece of software that understands html documents and display them in human friendly formats.
+- To access a website, you specify the protocol *http* (hypertext transfer protocol) and the *domain name* where the website is located.
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -217,6 +237,7 @@ Go to your folder you created for this project, you shoud see something like thi
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
+*** learning strand: Data and Data Representation
 - Take the quiz by clicking [[https://www.bournetolearn.com/quizzes/y7-webDesign/Lesson_1][this]] link.
 - *Silver:* Score 50%
 - *Gold:* Score 70%
