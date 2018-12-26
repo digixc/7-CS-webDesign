@@ -117,7 +117,7 @@
 
 *Programming & Development*
 - Develop understanding that programming bridges the gap between *algorithmic solutions* and computers (*automation*). 
-- Developing practical skills, including using the *language of the web HTTP*c to create a web site.
+- Developing practical skills, including using the *language of the web HTTP* to create a web site.
 - When programming, aware that programming languages have strict *syntax rules*.
 - Developing skills in using the *CSS box model* to design and implement web page layouts.
 - Learn how to link multiple web pages to form a web site.
